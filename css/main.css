@@ -17,14 +17,6 @@
   overflow: hidden;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  color: #212121;
-  background-color: #FFFFFF;
-  letter-spacing: 0.03em;
-}
-
 /* Стилі для скидання верхніх відступів у елементів */
 h1,
 h2,
@@ -80,6 +72,14 @@ button {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #212121;
+  background-color: #FFFFFF;
+  letter-spacing: 0.03em;
 }
 
 .card-set {
