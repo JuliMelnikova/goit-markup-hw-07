@@ -833,7 +833,7 @@ background-color: #21cbf3;
 }
 
 
-.project__info {
+.projects__info {
     background: var(--second-bg-color);
     border: 1px solid var(--radius-bg-color);
     padding: 20px 24px;
