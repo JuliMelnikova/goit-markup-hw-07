@@ -17,47 +17,49 @@ href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-norma
 
 <!-- Custom styles -->
 <link rel="stylesheet" href="./css/styles.css"/>
+<link rel="stylesheet" href="./css/main.min.css"/>
     
+
 <title>WebStudio</title>
 </head>
+
 <body>
     <header class="header">
-        <div class="header-container container">
+        <div class="header__container container">
             
             <!-- Navigation -->
-            <nav class="header-nav">
-                <a class="header-logo link" href="./index.html">
-                    <span class="accent">Web</span>Studio</a>
-                <ul class="header-nav-list list">
-                    <li class="header-nav-item">
-                        <a class="header-nav-link link" href="./index.html">Studio</a></li>
-                    <li class="header-nav-item">
-                        <a class="header-nav-link-page link" href="./portfolio.html">Portfolio</a></li>
-                    <li class="header-nav-item">
-                        <a class="header-nav-link link" href="">Contacts</a></li>
+            <nav class="nav">
+                <a class="nav__logo link" href="./index.html">
+                    <span class="nav__logo--accent">Web</span>Studio</a>
+                <ul class="nav__list list">
+                    <li class="nav__item">
+                        <a class="nav__link--page link" href="./index.html">Studio</a></li>
+                    <li class="nav__item">
+                        <a class="nav__link link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="nav__item">
+                        <a class="nav__link link" href="">Contacts</a></li>
                 </ul>
             </nav>
     
             <!-- List -->
-        <ul class="header-contact-group list">
-            <li class="header-contact-list list">
-                <a class="header-contact-link" href="mailto:info@example.com">
-                <svg class="header-contact-item" width="16"  height="12">
-                    <use href="./images/gallery/icons.svg#icon-mail"></use>
-                </svg>
-                    info@example.com
-                </a>
-            </li>
-            <li class="header-contact-list list">
-                <a class="header-contact-link" href="tel:+380961111111">
-                    <svg class="header-contact-item" width="10"  height="16">
-                        <use href="./images/gallery/icons.svg#icon-phone"></use>
+            <ul class="communication__group list">
+                <li class="communication__list list">
+                    <a class="communication__link" href="mailto:info@example.com">
+                    <svg class="communication__item" width="16"  height="12">
+                        <use href="./images/gallery/icons.svg#icon-mail"></use>
                     </svg>
-                    +38 096 111 11 11</a></li>
-        </ul>
-
-    </div>
-    </header>
+                        info@example.com
+                    </a>
+                </li>
+                <li class="communication__list list">
+                    <a class="communication__link" href="tel:+380961111111">
+                        <svg class="communication__item" width="10"  height="16">
+                            <use href="./images/gallery/icons.svg#icon-phone"></use>
+                        </svg>
+                        +38 096 111 11 11</a></li>
+            </ul>
+        </div>
+        </header>
     
         <main>
             <!--Section Portfolio-->
@@ -67,29 +69,29 @@ href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-norma
             <!-- Buttons-->
         <div class="container">
             <h1  class="visually-hidden">Portfolio</h1>
-            <ul class="portfolio-list list">
-                <li class="portfolio-item">
-                    <button class="portfolio-btn-all" type="button">All</button>
+            <ul class="portfolio__list list">
+                <li class="portfolio__item">
+                    <button class="portfolio__btn--all" type="button">All</button>
                 </li>
-                <li class="portfolio-item">
-                    <button class="portfolio-btn" type="button">Web-sites</button>
+                <li class="portfolio__item">
+                    <button class="portfolio__btn" type="button">Web-sites</button>
                 </li>
-                <li class="portfolio-item">
-                    <button class="portfolio-btn" type="button">Apps</button>
+                <li class="portfolio__item">
+                    <button class="portfolio__btn" type="button">Apps</button>
                 </li>
-                <li class="portfolio-item">
-                    <button class="portfolio-btn" type="button">Design</button>
+                <li class="portfolio__item">
+                    <button class="portfolio__btn" type="button">Design</button>
                 </li>
-                <li class="portfolio-item">
-                    <button class="portfolio-btn" type="button">Marketing</button>
+                <li class="portfolio__item">
+                    <button class="portfolio__btn" type="button">Marketing</button>
                 </li>
             </ul>
     
         <!-- Projects -->
-            <ul class="projects-list list card-set">
-                <li class="projects-item card-set">
-                    <a class="projects-link" href="./portfolio.html">
-                    <div class="projects-thumb">
+            <ul class="projects__list list card-set">
+                <li class="projects__item card-set">
+                    <a class="projects__link" href="./portfolio.html">
+                    <div class="projects__thumb">
                         <img
                     class="img"
                     src="./images/gallery/portfolio/image-people-1.jpg"
@@ -98,19 +100,19 @@ href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-norma
                     height="294"
                     />
                 <div class="overlay">
-                    <p class="overlay-description">
+                    <p class="overlay__description">
                     Technoduck is a state-of-the-art coronavirus distribution platform. Companies use this platform for digital espionage and attacks on competitors' secure servers.
                     </p>
                 </div>
                 </div>
-                    <div class="project-info">
-                        <h2 class="projects-title">Technoduck</h2>
-                        <p class="projects-description">Web-site</p>
+                    <div class="project__info">
+                        <h2 class="projects__title">Technoduck</h2>
+                        <p class="projects__description">Web-site</p>
                     </div>
                     </a>
                 </li>
-                <li class="projects-item card-set">
-                    <a class="projects-link" href="./portfolio.html">
+                <li class="projects__item card-set">
+                    <a class="project__link" href="./portfolio.html">
                         <img
                     class="img"
                     src="./images/gallery/portfolio/image-basketball-players-2.jpg"
@@ -118,14 +120,14 @@ href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-norma
                     width="370"
                     height="294"
                     />
-                    <div class="project-info">
-                        <h2 class="projects-title">Poster New Orlean vs Golden Star</h2>
-                        <p class="projects-description">Design</p>
+                    <div class="project__info">
+                        <h2 class="projects__title">Poster New Orlean vs Golden Star</h2>
+                        <p class="projects__description">Design</p>
                     </div>
                     </a>
                 </li>
-                <li class="projects-item card-set">
-                    <a class="projects-link" href="./portfolio.html">
+                <li class="projects__item card-set">
+                    <a class="projects__link" href="./portfolio.html">
                         <img
                     class="img"
                     src="./images/gallery/portfolio/image-fish-3.jpg"
@@ -133,14 +135,14 @@ href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-norma
                     width="370"
                     height="294"
                     />
-                    <div class="project-info">
-                        <h2 class="projects-title">Seafood Restaurant </h2>
-                        <p class="projects-description">Apps</p>
+                    <div class="project__info">
+                        <h2 class="projects__title">Seafood Restaurant </h2>
+                        <p class="projects__description">Apps</p>
                     </div>
                     </a>
                 </li>
-                <li class="projects-item card-set">
-                    <a class="projects-link" href="./portfolio.html">
+                <li class="projects__item card-set">
+                    <a class="projects__link" href="./portfolio.html">
                         <img
                     class="img"
                     src="./images/gallery/portfolio/image-headphone-4.jpg"
@@ -148,14 +150,14 @@ href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-norma
                     width="370"
                     height="294"
                     />
-                    <div class="project-info">
-                        <h2 class="projects-title">Project Prime</h2>
-                        <p class="projects-description">Marketing</p>
+                    <div class="project__info">
+                        <h2 class="projects__title">Project Prime</h2>
+                        <p class="projects__description">Marketing</p>
                     </div>
                     </a>
                 </li>
-                <li class="projects-item card-set">
-                    <a class="projects-link" href="./portfolio.html">
+                <li class="projects__item card-set">
+                    <a class="projects__link" href="./portfolio.html">
                         <img
                     class="img"
                     src="./images/gallery/portfolio/image-boxes-5.jpg"
@@ -163,14 +165,14 @@ href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-norma
                     width="370"
                     height="294"
                     />
-                    <div class="project-info">
-                        <h2 class="projects-title">Project Boxes</h2>
-                        <p class="projects-description">Apps</p>
+                    <div class="project__info">
+                        <h2 class="projects__title">Project Boxes</h2>
+                        <p class="projects__description">Apps</p>
                     </div>
                     </a>
                 </li>
-                <li class="projects-item card-set">
-                    <a class="projects-link" href="./portfolio.html">
+                <li class="projects__item card-set">
+                    <a class="projects__link" href="./portfolio.html">
                         <img
                     class="img"
                     src="./images/gallery/portfolio/image-monitor-6.jpg"
@@ -178,13 +180,13 @@ href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-norma
                     width="370"
                     height="294"
                     />
-                    <div class="project-info">
-                        <h2 class="projects-title">Inspiration has no Borders</h2>
-                        <p class="projects-description">Web-site</p>
+                    <div class="project__info">
+                        <h2 class="projects__title">Inspiration has no Borders</h2>
+                        <p class="projects__description">Web-site</p>
                     </div>
                     </a>
                 </li>
-                <li class="projects-item card-set">
+                <li class="projects__item card-set">
                     <a class="link" href="./portfolio.html">
                         <img
                     class="img"
@@ -193,14 +195,14 @@ href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-norma
                     width="370"
                     height="294"
                     />
-                    <div class="project-info">
-                        <h2 class="projects-title">Limited Edition</h2>
-                        <p class="projects-description">Design</p>
+                    <div class="project__info">
+                        <h2 class="projects__title">Limited Edition</h2>
+                        <p class="projects__description">Design</p>
                     </div>
                     </a>
                 </li>
-                <li class="projects-item card-set">
-                    <a class="projects-link" href="./portfolio.html">
+                <li class="projects__item card-set">
+                    <a class="projects__link" href="./portfolio.html">
                         <img
                     class="img"
                     src="./images/gallery/portfolio/image-label-8.jpg"
@@ -208,13 +210,13 @@ href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-norma
                     width="370"
                     height="294"
                     />
-                    <div class="project-info">
-                        <h2 class="projects-title">Project LAB</h2>
-                        <p class="projects-description">Marketing</p>
+                    <div class="project__info">
+                        <h2 class="projects__title">Project LAB</h2>
+                        <p class="projects__description">Marketing</p>
                     </div>
                     </a>
                 </li>
-                <li class="projects-item card-set">
+                <li class="projects__item card-set">
                     <a class="projects-link" href="./portfolio.html">
                         <img
                     class="img"
@@ -223,9 +225,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-norma
                     width="370"
                     height="294"
                     />
-                    <div class="project-info">
-                        <h2 class="projects-title">Growing Business</h2>
-                        <p class="projects-description">Apps</p>
+                    <div class="project__info">
+                        <h2 class="projects__title">Growing Business</h2>
+                        <p class="projects__description">Apps</p>
                     </div>
                     </a>
                 </li>
@@ -234,91 +236,94 @@ href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-norma
         </section>
         </main>
         
-        <footer class="footer">
-            <div class="container">
-            <div class="adress-wrapper">
-            <a class="footer-logo" href="./index.html">
-                <span class="footer-accent">Web</span>Studio</a>
-            <address class="adress">
-                <ul class="content list">
-                    <li class="content"><a class="adress-link" href="https://https://goo.gl/maps/fF9Ta2Md7pspU1L37" target="_blank"
-                        rel="noopener noreferrer">695 Park Ave, New York, NY 10065, United States"
-                    </a></li>
-                    <li class="content"><a class="contact-link" href="mailto:info@example.com">info@example.com</a></li>
-                    <li class="content"><a class="contact-link" href="tel:+1127724150">+1 212-772-4150</a></li>
-                </ul>
-            </address>
-            </div>
-    <div class="socials-link-wrapper">
-                <h2 class="footer-title">FIND US ON</h2>
-                <ul class="footer-list">
-                <li class="footer-item">
-                    <a
-                    class="footer-link link"
+        
+        <!--Footer-->
+
+    <footer class="footer">
+        <div class="container">
+        <div class="adress-wrapper">
+        <a class="footer__logo" href="./index.html">
+        <span class="footer__logo--accent">Web</span>Studio</a>
+        <address class="adress">
+            <ul class="content list">
+                <li class="content"><a class="adress__link" href="https://https://goo.gl/maps/fF9Ta2Md7pspU1L37" target="_blank"
+                    rel="noopener noreferrer">695 Park Ave, New York, NY 10065, United States"
+                </a></li>
+                <li class="content"><a class="contact__link" href="mailto:info@example.com">info@example.com</a></li>
+                <li class="content"><a class="contact__link" href="tel:+1127724150">+1 212-772-4150</a></li>
+            </ul>
+        </address>
+        </div>
+<div class="socials-link-wrapper">
+            <h2 class="footer__title">FIND US ON</h2>
+            <ul class="footer__list">
+                <li class="footer__item">
+                <a
+                class="footer__link link"
                     href="https://instagram.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Instagram">
                     <svg class="icon" width="20" height="20">
-                        <use href="./images/gallery/icons.svg#icon-instagram"></use>
+                    <use href="./images/gallery/icons.svg#icon-instagram"></use>
                     </svg>
-                    </a>
+                </a>
                 </li>
-    
-                <li class="footer-item">
-                    <a
-                    class="footer-link link"
+
+                <li class="footer__item">
+                <a
+                    class="footer__link link"
                     href="https://twitter.com"
                     aria-label="Twitter"
                     target="_blank"
                     rel="noopener noreferrer"
-                    >
-                    <svg class="icon" width="20" height="20">
+                >
+                <svg class="icon" width="20" height="20">
                     <use href="./images/gallery/icons.svg#icon-twitter"></use>
-                    </svg>
-                    </a>
+                </svg>
+                </a>
                 </li>
-    
-                <li class="footer-item">
-                    <a
-                    class="footer-link  link"
+
+                <li class="footer__item">
+                <a
+                    class="footer__link  link"
                     href="https://facebook.com"
                     aria-label="Facebook"
                     target="_blank"
                     rel="noopener noreferrer"
-                    >
-                    <svg class="icon" width="20" height="20">
-                        <use href="./images/gallery/icons.svg#icon-facebook"></use>
+                >
+                <svg class="icon" width="20" height="20">
+                    <use href="./images/gallery/icons.svg#icon-facebook"></use>
                     </svg>
-                    </a>
+                </a>
                 </li>
-    
-                <li class="footer-item">
-                    <a
-                    class="footer-link  link"
+
+                <li class="footer__item">
+                <a
+                    class="footer__link  link"
                     href="https://linkedin.com"
                     aria-label="LinkedIn"
                     target="_blank"
                     rel="noopener noreferrer"
-                    >
-                    <svg class="icon" width="20" height="20">
-                        <use href="./images/gallery/icons.svg#icon-linkedin"></use>
+                >
+                <svg class="icon" width="20" height="20">
+                    <use href="./images/gallery/icons.svg#icon-linkedin"></use>
                     </svg>
-                    </a>
-                                </li>
+                </a>
+                            </li>
                             </ul>
-        </div>
-
-        <!--subscription-->
+    </div>
+    
+    <!--subscription-->
     <div class="subscription">
-        <form class="subscription-form">
-        <label class="subscription-label">
-        <span class="subscription-title">Subscribe to the newsletter</span>
-        <input class="subscription-input" type="email" name="email" placeholder="E-mail" required>
+        <form class="subscription__form">
+        <label class="subscription__label">
+        <span class="subscription__title">Subscribe to the newsletter</span>
+        <input class="subscription__input" type="email" name="email" placeholder="E-mail" required>
             </label>
             
-        <button class="btn-send" type="submit">Suscribe
-            <svg class="send-icon" width="24" height="24">
+        <button class="btn btn--send" type="submit">Suscribe
+            <svg class="icon btn__icon--send" width="24" height="24">
             <use href="./images/gallery/icons.svg#icon-send"></use>
             </svg>
         </button>
@@ -326,7 +331,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-norma
     </div>
     </div>
     
-        </footer>
+    </footer>
         
         
     </body>
